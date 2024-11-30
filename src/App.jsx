@@ -1,14 +1,14 @@
 //import { useState } from 'react'
 import Header from './components/Header.jsx';
-import Blog from './components/Blog.jsx';
-import  Footer from'./components/Footer.jsx';
+import Card from './components/Card.jsx';
+import Footer from './components/Footer.jsx';
 
 function App() {
-   return (
+  return (
     <>
-   <Header/>
-   <Blog/>
-   <Footer/>
+      <Header />
+      <Card />
+      <Footer />
     </>
   );
 }
